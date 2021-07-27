@@ -1,0 +1,127 @@
+*
+{
+    -webkit-box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* <!--start slider--> */
+
+ .slider .col-xl-3 img
+ {
+    opacity:1;  
+    animation: bounce 2s ease-out infinite;
+ }
+ 
+@keyframes bounce { 
+    0%,100% {transform: scale(.9);}
+    50% {transform: scale(1);}
+  } 
+  /* <!--end slider--> */
+
+
+
+
+  /* <!--? Gallery Area Start --> */
+
+.gallery-area [alt=gallery1]
+{
+    animation: fadeRight 1.5s ease-in-out 1;
+}
+.gallery-area [alt=gallery2]
+{
+    animation: fadeDown 1.5s ease-in-out 1;
+}
+.gallery-area [alt=gallery3]
+{
+    animation: fadeLeft 1.5s ease-in-out 1;
+}
+.gallery-area [alt=gallery4]
+{
+    animation: fadeUp 1.5s ease-in-out 1;
+}
+
+  /* <!-- Gallery Area End --> */
+
+  .popular-items p{
+    animation: fadeUp 1.5s ease-in-out 1;
+}
+
+/* <!-- products-gallary start --> */
+.products-gallary .watch-product-img [alt=product1],
+.watch-chioce .card img
+{
+    animation: fadeRight 1.5s ease-in-out 1;
+}
+
+.products-gallary .watch-product-img [alt=product2]
+{
+    animation: fadeUp 1.5s ease-in-out 1;
+}
+.products-gallary .watch-product-img [alt=product3],
+.watch-chioce .card .card-body
+{
+    animation: fadeLeft 1.5s ease-in-out 1;
+}
+/* <!-- products-gallary end --> */
+
+
+
+
+  
+@keyframes fadeRight {
+	from {
+		opacity: 0;
+		transform: translate3d(-30%, 0,0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+	}
+}
+
+@keyframes fadeUp {
+	from {
+		opacity: 0;
+		transform: translate3d(0,50%,0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+	}
+}
+
+@keyframes fadeLeft {
+	from {
+		opacity: 0;
+		transform: translate3d(30%, 0,0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+	}
+}
+
+@keyframes fadeDown {
+	from {
+		opacity: 0;
+		transform: translate3d(0,-50%,0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+	}
+} 
+@keyframes bounce-in {
+    0% {
+      opacity: 0;
+      transform: scale(.3);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    70% { transform: scale(.9); }
+    100% { transform: scale(1); }
+}
+

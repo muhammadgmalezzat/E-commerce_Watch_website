@@ -1,0 +1,448 @@
+
+/* start psges colors */
+
+.slider button:hover ,
+.products-gallary button:hover,
+.watch-chioce .watch-chioce-text a:hover,
+.shop-method .method-wrapper,
+.watch-chioce .card-body .btn:hover
+
+{background-color: #FF2020;}
+
+.shop-method .method-wrapper .single-method a,
+.shop-method .method-wrapper h5,
+.footer .footer-logo h1
+{
+    color: #FFFFFF;
+}
+.watch-chioce .card {border: 2px solid #FF2020;}  
+.about-details h4,h2 ,
+.about-details h2,
+.products-gallary .properties .nav-item a:hover,
+.foam h4,
+.plog-page .main-blog .card-title,
+.plog-page .main-blog .card-body a:hover,
+.plog-page .main-blog .image .item-date a:hover,
+.plog-page .side-plog .Recent-Posts .single-post .post-text a:hover,
+.plog-page .side-plog .categories .list-group .list-group-item a:hover,
+.plog-page .side-plog .search .btn-danger:hover,
+.Newsletter .btn-danger:hover,
+.products-gallary h1
+
+{
+    color: #ff5757;
+}
+.plog-page .main-blog .image .item-date,
+.plog-page .main-blog .page-num .pagination li a:hover,
+.Tag-Clouds ul li a:hover
+{
+    background-color: #FF2020;
+}
+.products-gallary .properties .nav-item a,
+.plog-page .main-blog .image .item-date p,
+.plog-page .main-blog .image .item-date h5,
+.plog-page .main-blog .page-num .pagination li a:hover,
+.plog-page .side-plog .categories h4,
+.plog-page .side-plog .Recent-Posts h4,
+.Instagram-Feeds h4,
+.Tag-Clouds h4,
+.Instagram-Feeds h4,
+.plog-page .side-plog .Recent-Posts .single-post .post-text a,
+.Tag-Clouds ul li a,
+.search h4,
+.login-page .login-page-form label
+{
+    color: white;
+}
+.plog-page .main-blog .card-body a,
+.plog-page .main-blog .card-body ul .first-li ::after,
+.plog-page .side-plog .Recent-Posts .single-post .post-text,
+.Tag-Clouds ul li,
+.login-page .login-page-form a
+
+{
+    color: #AFAFAF;
+}
+
+.search,
+.plog-page .side-plog .categories, 
+.plog-page .side-plog .Recent-Posts,
+.Instagram-Feeds,
+.Tag-Clouds ,
+.Newsletter,
+.login-page .login-page-form
+{
+    background-color:#212529 ;
+}
+
+/* end psges colors */
+
+
+/* start website fonts */
+h1 , h2, h3, h4, h5, h6 ,
+.navbar .navbar-brand,
+footer .footer-copy-right span a
+{
+    font-family: 'Otomanopee One', sans-serif;
+}
+p
+{
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+}
+
+/* end website fonts */
+
+
+
+
+
+/* start about */
+.about-details{margin-top: 65px;}
+.navbar-expand-lg .navbar-nav {opacity: .98;}
+.about-details h4,h2{font-size: 40px;}
+.about-details h2{
+    text-align: center;
+    padding-top: 22px;
+    font-size: 61px;
+    max-height: 500px;
+}
+.carousel h5
+{
+    font-size: 3.25rem;
+margin: 100px;
+    justify-content: center;
+    text-align: center;
+}
+.carousel img{ opacity: .55;}    
+
+/* end about */
+
+/* start shop */
+.shop-cover
+{
+    padding-top: 65px;
+    padding-bottom: 200px;
+}
+.shop-cover .cover 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    position: relative;
+
+}
+.shop-cover .cover::before
+{
+    content: "";
+    position: absolute;
+    background-image: url(../img/gallery01.png);
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+opacity: .3;
+background-size: cover;
+}
+.shop-cover .cover h1{
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+}
+.products-gallary h1
+{
+padding-bottom: 100px;
+font-size: 50px;
+}
+.form-select-sm
+{
+    width: 129px;
+    float: right;
+    border-radius: 20px;
+}
+.products-gallary .properties .nav{float: left;}
+
+.products-gallary .properties .nav-item:active,
+.products-gallary .properties .nav-link:focus
+{ 
+    border-bottom: 2px solid #ff5757;
+}
+
+
+
+  
+/* end shop */
+
+/* start product deatails */
+
+.carousel-product-page,
+.foam
+{
+    padding-bottom: 150px;
+}
+.foam h4
+{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+/* end product deatails */
+
+/* <!-- start main blog --> */
+
+.plog-page{padding-top: 100px;}
+.plog-page .main-blog .card 
+{
+    margin-bottom: 40px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.plog-page .main-blog .card-title
+{
+    margin-bottom: 0.5rem;
+    font-size: 25px;
+}
+.plog-page .main-blog .card-body a
+{
+    text-decoration: none;
+    margin: 7px;
+}
+
+.plog-page .main-blog .card-body ul{list-style: none;}
+.plog-page .main-blog .card-body ul li{display: inline-block;}
+.plog-page .main-blog .card-body ul .first-li ::after
+{
+    content: "|";
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.plog-page .main-blog .image{position: relative;}
+.plog-page .row{ padding-top: 25px;}
+.plog-page .main-blog .image .item-date
+{
+    position: absolute;
+    margin-left: 10px;
+    bottom: -10px;
+    left: 10px;
+    border-radius: 12px;
+    text-align: center;
+}
+.plog-page .main-blog .image .item-date:hover{ background-color:transparent;}
+.plog-page .main-blog .image .item-date p{
+    margin: 0px 12px 9px 12px;
+
+float: right;
+}
+
+.plog-page .main-blog .image .item-date h5{
+    margin: 10px 30px 1px 12px;
+}
+.plog-page .main-blog .page-num .pagination li a
+{
+color: #212529;
+}
+
+
+.search 
+{
+    margin-bottom: 50px;
+}
+
+
+.plog-page .side-plog .search .input-group,
+.Newsletter .input-group
+{
+    padding: 43px 36px 30px 40px;
+
+}
+.plog-page .side-plog .search .btn-danger,
+.Newsletter .btn-danger
+{
+    width: 220px;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.plog-page .side-plog .search .btn-danger:hover,
+.Newsletter .btn-danger:hover{background-color:transparent;}
+.plog-page .side-plog .categories
+{
+    margin-bottom: 30px;
+}
+.plog-page .side-plog .categories h4
+{
+    margin-left: 15px;
+    margin-bottom: 12px;
+    padding-top: 20px;
+}
+.plog-page .side-plog .categories .list-group{padding:5px;}
+.plog-page .side-plog .categories .list-group .list-group-item
+{
+    background-color: #AFAFAF;
+    line-height: 2.5;
+}
+.plog-page .side-plog .categories .list-group .list-group-item a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.plog-page .side-plog .Recent-Posts,
+.Instagram-Feeds,
+.Tag-Clouds ,
+.Newsletter
+{
+    margin-bottom: 30px;
+}
+.plog-page .side-plog .Recent-Posts h4,
+.Instagram-Feeds h4,
+.Tag-Clouds h4
+{
+    margin-left: 15px;
+    margin-bottom: 12px;
+    padding-top: 20px;
+}
+
+.plog-page .side-plog .Recent-Posts .single-post
+{
+margin-left: 5px;
+display: flex;
+}
+
+.plog-page .side-plog .Recent-Posts .single-post img
+{
+max-width: 30%;
+border-radius: 5px; 
+margin-right: 20px ;
+}
+.plog-page .side-plog .Recent-Posts .single-post .post-text
+{
+    max-width: 70%;
+    float: right;
+}
+.plog-page .side-plog .Recent-Posts .single-post .post-text a,
+.Tag-Clouds ul li a
+{
+text-decoration: none;
+}
+
+
+.Instagram-Feeds .posts
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    
+}
+.Instagram-Feeds h4{
+    margin-left: 27px;
+    margin-bottom: 24px;
+    padding-top: 20px;
+}
+
+.Instagram-Feeds .posts .single-post
+{
+    margin-right: 5px;
+    text-align: center;
+    margin-bottom: 11px;
+}
+.Instagram-Feeds .posts .single-post img{border-radius: 5px;}
+.Tag-Clouds ul{list-style: none;}
+.Tag-Clouds ul li
+{
+    display: inline-block;
+}
+.Tag-Clouds ul li a{
+
+    display: inline-block;
+    border: 1px solid #eeeeee;
+    background: #AFAFAF;
+    padding: 4px 20px;
+    margin-bottom: 12px;
+    margin-right: 6px;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+    border-radius: 6px;
+}
+.Newsletter 
+{
+    flex: 1 1 auto;
+    width: 100px;
+    text-align: center;
+
+}
+.search h4
+{
+padding-top: 20px;
+margin: auto;
+}
+
+
+
+/* <!-- end main blog --> */
+
+
+/* start login page */
+
+.login-page {padding-bottom: 150px;}
+.login-page .login-page-form
+{
+   margin-top: 250px;
+   height: 500px;
+   border-radius: 35px;
+}
+
+.login-page .login-page-form form
+{
+    padding-top: 55px;
+    padding-left: 20px;
+    padding-right: 35px;
+}
+.login-page .login-page-form input{ margin-bottom: 15px;}
+.login-page .login-page-form .btn-danger
+{
+    width: 200px;
+    left: 50%;
+    margin-top: 50px;
+}
+.login-page .login-page-form a
+{
+    text-decoration: none;
+    float: right;
+    
+}
+.login-page-image
+{
+    opacity:1;  
+    animation: bounce 3s linear infinite;
+}
+@keyframes bounce { 
+    0%,100% {transform: scale(.9);}
+    50% {transform: scale(1);}
+  }  
+/* end login page */
+
+/*<!-- Shop Method start--> */
+
+.shop-method 
+{
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+.shop-method .method-wrapper{border-radius: 10px;}
+.shop-method .method-wrapper h5
+{
+    text-align: center; 
+    padding-top: 20px;
+}
+.shop-method .method-wrapper .single-method{text-align: center; }
+
+.shop-method .method-wrapper .single-method a{font-size: 30px; }
+.shop-method .method-wrapper .single-method i{margin-top: 20px;}
+
+/* <!-- Shop Method End--> */

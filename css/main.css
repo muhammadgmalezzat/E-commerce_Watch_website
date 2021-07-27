@@ -1,0 +1,360 @@
+.os
+{
+    padding: 5px;
+    background-color: teal;
+    margin: 2px;
+}
+*
+{
+    -webkit-box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* start website colors */
+
+body ,
+.navbar,
+.navbar .dropdown-menu,
+.navbar .dropdown-item,
+.navbar-expand-lg .navbar-nav
+{background-color: #1F1F1F;}
+
+
+
+.navbar-light .navbar-nav .nav-link ,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand,
+.navbar .nav a,
+.navbar .dropdown-item,
+.navbar-nav .nav-link,
+h3, .h3,
+p,
+.footer .footer-tittle ul a,
+footer .footer-copy-left ul li a,
+.arrivals .product-caption h3
+{ 
+    color:#AFAFAF;   
+}
+
+.shop-method .method-wrapper .single-method a,
+.shop-method .method-wrapper h5,
+.footer .footer-logo h1
+{
+    color: #FFFFFF;
+}
+
+/* end website colors */
+
+/* start website fonts */
+h1 , h2, h3, h4, h5, h6 ,
+.navbar .navbar-brand,
+footer .footer-copy-right span a
+{
+    font-family: 'Otomanopee One', sans-serif;
+}
+p
+{
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+}
+
+/* end website fonts */
+
+/* <!--start navbar--> */
+
+.navbar {height: 65px;}
+.navbar-expand-lg .navbar-nav
+{
+    margin-left: auto;
+    margin-top: 10px;
+}
+.navbar .navbar-brand {font-size: 25px; }
+.nav-bar .nav-link{margin: 10px;}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+h1,.h1
+{   padding: 0px;
+    margin: 15px 22px 15px;
+}
+
+.navbar .dropdown-menu
+{
+    border-radius: 15px;
+    border-width: 2px;
+}
+.nav-item {margin:-11px;}
+.navbar .nav{margin-right: 25px;}
+
+.navbar .nav a
+{
+    margin: 12px;
+    font-size: 18px;
+    height: 16px;
+}
+.navbar .dropdown-item{ margin: -5px; font-size: 13px; }
+.navbar .dropdown-divider{ height: 2px;}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu li
+{
+    padding: 6px 10px !important;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+.navbar-expand-lg .navbar-nav
+{    
+    margin-left: auto;
+    margin-top: 10px;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+.navbar-nav .nav-link,
+h3, .h3,p{margin: 13px;}
+
+/* <!--end navbar--> */
+
+/* <!--start carousal--> */
+
+.carousel{ margin-top: 65px;}
+.carousel img{border-radius: 20px; }
+
+/* <!--end carousal--> */
+
+/* <!--start slider--> */
+
+.slider { padding-top: 80px; padding-bottom: 100px; }
+.slider .col-xl-8 {margin-top: 200px;}
+.slider .col-xl-8 h1
+{
+    font-size: 80px;
+    padding-bottom: 30px;
+    line-height: 1.2;
+}
+.slider .col-xl-8 p
+{
+    line-height: 2;
+    padding-bottom: 30px;
+}
+.slider button{width: 150px; height: 45px; }
+
+/* <!--end slider--> */
+
+/* <!-- start arrivals--> */
+
+.arrivals .product-img img
+{
+    height: 100%;
+    width: 100%;
+    object-fit:scale-down;
+    border-radius: 20px;
+
+}
+.arrivals 
+{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.arrivals .row h1{
+    padding-bottom: 60px;
+    font-size: 50px;
+
+}
+
+/* <!-- end arrivals--> */
+
+/* <!--? Gallery Area Start --> */
+.gallery-area .single-gallery
+{
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.watch-product-img,
+.gallery-img,
+.product-img
+{
+    height: auto;
+    overflow: hidden;
+}
+.watch-product-img img ,
+.gallery-img img,
+.product-img img
+{width: 100%;transition: 0.3s ease all;}
+
+.watch-product-img img:hover ,
+.gallery-img img:hover,
+.product-img img:hover 
+{opacity: 0.5;transform: scale(1.2);}
+
+img, svg { margin-bottom: 10px;  border-radius: 15px;}
+
+/* <!-- Gallery Area End --> */
+
+/* <!--? Popular Items Start --> */
+
+.popular-items 
+{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/* <!--? Popular Items end --> */
+
+/* <!-- products-gallary start --> */
+
+.products-gallary
+{
+    padding-bottom: 200px;
+    text-align: center;
+}
+.products-gallary .watch-product
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.products-gallary .watch-product .watch-product-img img
+{
+    height: 100%;
+    width: 100%;
+    object-fit:scale-down;
+}
+.products-gallary button
+{
+    margin-top: 70px;
+    padding: 13px;
+    width: 200px;
+}
+
+/* <!-- products-gallary end --> */
+
+/* <!--? Watch Choice  Start--> */
+.watch-chioce .card { border-radius: 20px; overflow: hidden;}
+.watch-chioce .card img {margin-bottom: 0px;}
+.watch-chioce .card-body .btn{ margin-top: 15px;}
+  
+/* <!--? Watch Choice  end--> */
+
+/*<!-- Shop Method start--> */
+
+.shop-method 
+{
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+.shop-method .method-wrapper{border-radius: 10px;}
+.shop-method .method-wrapper h5
+{
+    text-align: center; 
+    padding-top: 20px;
+}
+.shop-method .method-wrapper .single-method{text-align: center; }
+
+.shop-method .method-wrapper .single-method a{font-size: 30px; }
+.shop-method .method-wrapper .single-method i{margin-top: 20px;}
+
+/* <!-- Shop Method End--> */
+
+/* <!-- Footer Start--> */
+
+.footer {padding-bottom: 80px;}
+.footer .footer-logo h1
+{
+    float: left;
+    margin: 0px 0px 14px 10px;
+    font-size: 35px;
+}
+
+.footer .footer-tittle{float: left;}
+.footer .footer-tittle ul{
+    list-style: none;
+    margin-left: -25px;
+}
+.footer .footer-tittle h4{
+    margin-bottom: 20px;
+}
+.footer .footer-tittle ul a{
+    text-decoration: none;
+    line-height: 2
+}
+
+footer {padding-top: 80px;}
+footer .footer-copy-right span a{text-decoration: none;}
+footer .footer-copy-left ul
+{
+    list-style: none;
+    margin-top: 15px;
+}
+footer .footer-copy-left ul li
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+footer .footer-copy-left ul li a{font-size: 22px;}
+
+/* <!-- Footer end--> */
+
+
+
+/* option-box */
+
+.option-box
+{
+    position: fixed;
+    top: 125px;
+    right: 0px;
+    z-index: 9999;
+}
+.option-box .color-option
+{
+    float: right;
+    color: #AFAFAF;
+    padding: 10px;
+    width: 180px;
+    border-radius: 15px;
+    display: none;
+}
+.option-box .color-option i{
+    float: left;
+}
+.option-box .color-option h4{
+    float: right;
+   
+}
+.option-box .color-option ul li{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    float: left;
+    border-radius: 50%;
+}
+.option-box .gear-check {
+padding: 5px;
+z-index: 99999;
+} 
+
+
+/* <!-- scroll-top icon --> */
+#scroll-top
+{
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    float: right;
+    text-align: center;
+    right: 15px;
+    bottom: 10px;
+    position: fixed;
+    z-index: 9999;
+    display: none;
+}
+#scroll-top i
+{
+    font-size: 55px;
+    margin-top: 5px;
+    background-color:#ff575700;
+}
+
+h1{ font-size: 50px;}

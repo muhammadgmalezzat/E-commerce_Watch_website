@@ -1,0 +1,96 @@
+/* start website colors */
+
+
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:active,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-brand span,
+h1, .h1 ,
+.navbar .navbar-toggler-icon:hover ,
+.navbar .nav a:hover,
+.navbar .dropdown-item:hover,
+.arrivals .product-caption span,
+.products-gallary .watch-product .watch-product-caption span ,
+.footer .footer-logo span,
+footer .footer-copy-left ul li a:hover,
+.navbar .dropdown-divider,
+.watch-chioce .watch-chioce-text h1,
+.footer .footer-tittle h4,
+.footer .footer-tittle ul a:hover ,
+footer .footer-copy-right span a,
+.watch-chioce .card-title,
+.option-box .gear-check,
+.option-box .color-option h4
+{
+    color: #FF2020;
+}
+
+
+.slider button:hover ,
+.products-gallary button:hover,
+.watch-chioce .watch-chioce-text a:hover,
+.shop-method .method-wrapper,
+.watch-chioce .card-body .btn:hover
+
+{background-color: #FF2020;}
+
+
+.watch-chioce .card {border: 2px solid #FF2020;}  
+.navbar .dropdown-menu
+{
+    border-top-color: #FF2020;
+}
+
+.option-box .color-option
+{
+    border: 2px solid #FF2020;
+}
+.option-box .color-option ul li{
+    background-color: #FF2020; 
+}
+/* end website colors */
+
+
+
+/* start psges colors */
+
+.slider button:hover ,
+.products-gallary button:hover,
+.watch-chioce .watch-chioce-text a:hover,
+.shop-method .method-wrapper,
+.watch-chioce .card-body .btn:hover
+
+{background-color: #FF2020;}
+#scroll-top
+{background-color: #ff5757;}
+
+.watch-chioce .card {border: 2px solid #FF2020;}  
+.about-details h4,h2 ,
+.about-details h2,
+.products-gallary .properties .nav-item a:hover,
+.foam h4,
+.plog-page .main-blog .card-title,
+.plog-page .main-blog .card-body a:hover,
+.plog-page .main-blog .image .item-date a:hover,
+.plog-page .side-plog .Recent-Posts .single-post .post-text a:hover,
+.plog-page .side-plog .categories .list-group .list-group-item a:hover,
+.plog-page .side-plog .search .btn-danger:hover,
+.Newsletter .btn-danger:hover,
+.products-gallary h1
+
+{
+    color: #ff5757;
+}
+.plog-page .main-blog .image .item-date,
+.plog-page .main-blog .page-num .pagination li a:hover,
+.Tag-Clouds ul li a:hover
+{
+    background-color: #FF2020
+}
+
+
+
+/* end psges colors */
+
